@@ -7,7 +7,6 @@ import { HttpObjService } from './http-obj.service';
 })
 export class AppComponent {
   constructor(private objService:HttpObjService){};
-  title = 'project-manager';
   /*  API */
   obj:object;
   keys = new Array();
